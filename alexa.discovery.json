@@ -1,0 +1,55 @@
+{
+    "header": {
+        "namespace": "Alexa.Discovery",
+        "name": "Discover.Response",
+        "payloadVersion": "3",
+        "messageId": "bbe8b99d-0b38-4f8e-9c09-4b05adff8959"
+    },
+    "payload": {
+        "endpoints": [
+            {
+                "endpointId": "faf9b8f0eb5811e9a1fc8d94b9308f3d",
+                "manufacturerName": "JCI Security System",
+                "friendlyName": "my home",
+                "description": "Security System",
+                "displayCategories": [
+                    "SECURITY_PANEL"
+                ],
+                "cookie": {},
+                "capabilities": [
+                    {
+                        "type": "AlexaInterface",
+                        "interface": "Alexa.SecurityPanelController",
+                        "version": "3",
+                        "properties": {
+                            "supported": [
+                                {
+                                    "name": "armState"
+                                },
+                                {
+                                    "name": "burglaryAlarm"
+                                }
+                            ],
+                            "proactivelyReported": true,
+                            "retrievable": true
+                        },
+                        "configuration": {
+                            "supportsArmInstant": true,
+                            "supportedArmStates": [
+                                {
+                                    "value": "ARMED_AWAY"
+                                },
+                                {
+                                    "value": "ARMED_STAY"
+                                },
+                                {
+                                    "value": "DISARMED"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

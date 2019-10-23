@@ -1,0 +1,33 @@
+{ 
+   "event":{ 
+      "header":{ 
+         "namespace":"Alexa",
+         "name":"ChangeReport",
+         "messageId":"6170ab4c-8e01-455d-981d-f175f7c57999-R",
+         "payloadVersion":"3"
+      },
+      "endpoint":{ 
+         "scope":{ 
+            "type":"BearerToken", "token":"Atza|IwEBIHNPvm0XdtZ8va1IphdFHcSmMQ71JNCDvGlSnWyYmsHdzH2y_WtmZvz6jf7qibzmVVKD2FxMW0jg5F52bZhyP_Fd2BEDRnpiH_Ka9m8_bEXqXDA4VbPpC62gSR0JkSBvK1W_o7PytAaavXxSt3yJrSBm0ywUnVJg5gZohA1M9cQ_tlv5EjdWoDwQqS6vBL-agbVITVWQ45MFrXG4sDPTP13aawMXzV2RzxMBRWvcZDD5IZjHNNlc0QVLmEO6T_LBqjyIjrfgu6OBF4emZ3VCzpGG-v2ytOm9Wo71mhQIr1e-FDjwqIucn0-owpRGB-I8EX5_7frDuKtBDq_4XMDyG4I4O0NrnirndDQvvhJ8nQlvOA"
+         },
+         "endpointId":"faf9b8f0eb5811e9a1fc8d94b9308f3d"
+      },
+      "context":{},
+      "payload":{ 
+         "change":{ 
+            "cause":{ 
+               "type":"APP_INTERACTION"
+            },
+            "properties":[ 
+               { 
+                  "namespace":"Alexa.SecurityPanelController",
+                  "name":"armState",
+                  "value":"DISARMED",
+                  "timeOfSample":"2019-10-23T19:49:53.042Z",
+                  "uncertaintyInMilliseconds":0
+               }
+            ]
+         }
+      }
+   }
+}
